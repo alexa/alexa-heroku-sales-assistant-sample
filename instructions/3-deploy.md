@@ -45,12 +45,12 @@ The ASK CLI will create the skill front-end for you.
 
 ```
 $ ask deploy
--------------------- Create Skill Project --------------------
-Profile for the deployment: [default]
-Skill Id: <Your Skill ID>
-Skill deployment finished.
-Model deployment finished.
-[Info]: No lambda functions need to be deployed.
+==================== Deploy Skill Metadata ====================
+Skill package deployed successfully.
+Skill ID: amzn1.ask.skill.xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+==================== Build Skill Code ====================
+...
 ```
 
 2. Make sure to save your skill ID returned in the previous output. We’ll use that often in the future steps.
