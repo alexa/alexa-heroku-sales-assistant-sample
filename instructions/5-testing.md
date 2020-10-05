@@ -11,23 +11,21 @@ Now that you completed most of the setup, let's make sure everything is working.
 1. Run the following command to execute a command against your skill:
 
 ```
-$ ask simulate -l en-US -t "open sales assistant"
-✓ Simulation created for simulation id: 0c857923-0753-43a5-b44c-ee2fca137aab
-◜ Waiting for simulation response{
-  "status": "SUCCESSFUL",
-  "result": {
+$ ask dialog -l en-US
+========================================== Welcome to ASK Dialog 
+========================================== In interactive mode, type your utterance text onto the console and hit enter 
+========================================== Alexa will then evaluate your input and give a response! 
+========================================== Use ".record <fileName>" or ".record <fileName> --append-quit" to save list of utterances to a file. 
+========================================== You can exit the interactive mode by entering ".quit" or "ctrl + c". 
+
+User  > Open Sales Assistant
 ...
 ```
 
 2. Check for the output message to also see what Alexa would have said. In this case, the message just indicates you need to link a Salesforce account since the skill requires authentication against Salesforce to get started. 
 
 ```
-...
-"outputSpeech": {
-  "type": "SSML",
-  "ssml": "<speak>You need to link a Salesforce account before you can use this skill.\n I've sent a card to your Alexa app to help.</speak>"
-},
-...
+Alexa > You need to link a Salesforce account before you can use this skill. I've sent a card to your Alexa app to help.
 ```
 
 ### Test the Linking Flow

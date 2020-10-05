@@ -25,7 +25,7 @@ The [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-k
 Once you have installed the CLI, you need to initialize ASK CLI with your Amazon developer account credentials with the following command:
 
 ```bash
-$ ask init
+$ ask configure
 ```
 
 **Note:** You may have AWS credentials connected to the ASK CLI to automatically deploy and manage skills powered by AWS Lambda; for this set up, you **do not** need to have AWS credentials tied to your ASK CLI installation. For more information on how to set up your AWS credentials, see [Set Up Credentials for an Amazon Web Services (AWS) Account](https://developer.amazon.com/docs/smapi/set-up-credentials-for-an-amazon-web-services-account.html).
